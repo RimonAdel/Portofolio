@@ -1,0 +1,60 @@
+.about {
+    background-color: #2B2B2B;
+    color: white;
+}
+
+.about-interests {
+    width: 80%;
+    margin: 0rem auto;
+    padding: 3rem 0;
+    height: fit-content;
+    block-size: fit-content;
+    display: flex;
+}
+
+.fa,
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
+
+.fa:hover,
+.fab:hover {
+    color: orange;
+}
+
+.contact-links li {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+.contacts {
+    display: inline-block;
+    width: 50vw;
+    display: block;
+    line-height: 0.75rem;
+}
+
+.cv-button {
+    margin: 1rem auto;
+    background-color: rgba(0, 162, 255, 0.5);
+    color: white;
+    padding: 1em 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-style: bold;
+}
+
+.cv-button:hover {
+    color: orange;
+}
+
+.interests {
+    width: 50%;
+}

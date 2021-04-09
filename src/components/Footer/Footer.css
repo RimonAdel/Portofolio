@@ -1,0 +1,42 @@
+.footer {
+    background: #303036;
+    color: #d3d3d3;
+    height: 400px;
+    height: fit-content;
+    block-size: fit-content;
+}
+
+.footer__content {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.footer__section {
+    width: 25%;
+    text-align: center;
+}
+
+.footer__about__content {
+    color: hsl(210, 22%, 49%);
+    margin-bottom: 2rem;
+}
+
+.footer__section__contacts {
+    display: inline-block;
+    line-height: 0.75rem;
+}
+
+.footer__section_links {
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+    .footer__content {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,30 @@
+.skills {
+    background-color: white;
+}
+
+.skill-name {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.skill {
+    height: 10px;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    margin: 0;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: navy;
+    border-radius: inherit;
+    text-align: center;
+    align-self: left;
+    margin: 0;
+}
+
+.skill-1 {
+    margin: 2rem 0;
+}

@@ -1,0 +1,43 @@
+export const ProjectsData = [{
+        id: 1,
+        title: "Coloring-Machine-from-SVG_image-using-marlin",
+        image: "https://lh3.googleusercontent.com/d/1_sIl8F6xOxA9ZNVLjrLoCya8CReeZXpp=s220?authuser=0",
+        discription: "this project take any SVG image with size 300x300 mm and convert this image to Gcode. the Gcode then you can take the output file and send it serially to marlin firmware using pronterface",
+        link: "https://github.com/RimonAdel/Coloring-Machine-from-SVG_image-using-marlin",
+    },
+    {
+        id: 2,
+        title: "Circus-OF-Plates",
+        image: "https://lh3.googleusercontent.com/d/1pyu0ot433NH7f4ZrsCV-wsH3Ub2jOasN=s220?authuser=0",
+        discription: "2D game implementing 10 Design Patterns•The player select levels of hardness from three levels determining the speed of the game and probability of bombs presence in the game",
+        link: "https://github.com/RimonAdel/Circus-OF-Plates",
+    },
+    {
+        id: 3,
+        title: "stereo-Matching",
+        image: "https://lh3.googleusercontent.com/d/1Kwn0Psj37yfcyauXBvTYebOYXrJJ19R-=s220?authuser=0",
+        discription: "implements and tests some simple stereo matching algorithms discussed in computer vision for undergradates class. In each case the script will take two images Il and Ir (a left and a right image) and compute the horizontal disparity (ie., shift) of pixels along each scanline. This is the so-called baseline stereo case, where the images are taken with a forward-facing camera, and the translation between cameras is along the horizontal axis.",
+        link: "https://github.com/RimonAdel/stereo-Matching",
+    },
+    {
+        id: 4,
+        title: "8 Puzzle Solver",
+        image: "https://drive.google.com/thumbnail?id=1hrTlx2npik1ygILE1plL8CaGw8xnP4KT",
+        discription: "solve the 8-Puzzle game using different search techniques like : Breadth Frist Serach, Depth Frist Serach and A*",
+        link: "https://github.com/RimonAdel/8-Puzzle",
+    },
+    {
+        id: 5,
+        title: "IOT-project-using-ESP8266",
+        image: "https://drive.google.com/thumbnail?id=1FKsSE3notWnV6xxAsvUVek01Rd8_tY0d",
+        discription: "About using java to make 2D game implementing 10 Design Patterns•The player select levels of hardness from three levels determining the speed of the game and probability of bombs presence in the game",
+        link: "https://github.com/RimonAdel/Circus-OF-Plates",
+    },
+    {
+        id: 6,
+        title: "Human Measurment System",
+        image: "https://drive.google.com/thumbnail?id=1KyNMcuJKakQd1VMynxSOKnUkS8BJWVB8",
+        discription: "Extracting the human body measurements such as hip, waist, chest and shoulders using machine learning and computer vision ",
+        link: "https://github.com/RimonAdel/Human-Measurment-System",
+    },
+];
