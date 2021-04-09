@@ -14,13 +14,13 @@ function Footer() {
             <h3>Qucik links</h3>
             {MenuItems.map((item, index) => {
               return (
-                  <ul>
-                      <li>
-                      <a className={item.cName} href={item.URL}>
+                  <div>
+                      {/* <li> */}
+                      <a className='footer__links' href={item.URL}>
                   {item.title}
                 </a>
-                      </li>
-                  </ul>
+                      {/* </li> */}
+                  </div>
 
               );
             })}

@@ -3,9 +3,7 @@ import React from 'react';
 import "./Card.css"
 
 const Card = ({ title, image, discription, link }) => {
-  // console.log(image);
-  const url = image && image.url;
-  console.log(url);
+  // const url = image && image.url;
   return (
     <a href={link} target="_blank" rel="noopener noreferrer" className="card">
       <img src={image} alt="Denim Jeans" />

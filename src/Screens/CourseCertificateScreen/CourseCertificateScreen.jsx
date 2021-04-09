@@ -3,7 +3,6 @@ import './CourseCertificateScreen.css'
 
 function CourseCertificateScreen() {
   // const {id} = props.match.params.id;
-  console.log("yess");
   return (
 <div className="certficate__pdf__viwer">
       <iframe

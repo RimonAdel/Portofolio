@@ -10,7 +10,6 @@ export default function Projects() {
         <div>
           <div className="project-holder">
             {ProjectsData.map((product) => {
-              console.log(product);
               return <Card key={product.id} {...product} />;
             })}
           </div>

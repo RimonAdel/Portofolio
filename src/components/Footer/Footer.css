@@ -26,28 +26,38 @@
 .footer__section__contacts {
     display: inline-block;
     line-height: 0.75rem;
-    width: 30%;
+    width: 33%;
 }
 
 .footer__section_links {
     width: 20%;
     text-align: center;
+    text-decoration: none;
+}
+
+.footer__links {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.footer__links:hover {
+    color: orange;
 }
 
 @media only screen and (max-width: 700px) {
     h3 {
-        font-size: 1.25rem;
+        font-size: 5vw;
+    }
+    h4 {
+        font-size: 3vw;
     }
     .footer__content {
-        font-size: 0.75rem;
-    }
-}
-
-@media only screen and (max-width: 475px) {
-    h3 {
-        font-size: 1.25rem;
-    }
-    .footer__content {
-        font-size: 0.5rem;
+        font-size: 2.7vw;
     }
 }
