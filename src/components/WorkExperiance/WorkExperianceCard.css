@@ -1,0 +1,26 @@
+.Work__Experiance__Card {
+    background-color: rgb(241, 241, 241);
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.Work__Experiance__Card>pre {
+    color: gray;
+}
+
+.Work__Experiance__Card>pre>pre {
+    display: inline-block;
+}
+
+.Wrok__Experienc__details {
+    color: black;
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}

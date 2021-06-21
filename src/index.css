@@ -125,10 +125,11 @@ p {
     width: 90%;
     margin: 0rem auto;
     padding: 3rem;
+    min-height: 100vh;
 }
 
 .section-container {
-    width: 50%;
+    width: 80%;
     margin: 0px auto;
 }
 

@@ -24,20 +24,20 @@ export const skills = [{
     },
     {
         id: 5,
-        name: "php",
-        level: 60,
-        level_name: "intermediat",
-    },
-    {
-        id: 6,
         name: "REACT.JS",
         level: 60,
         level_name: "intermediat",
     },
     {
-        id: 7,
+        id: 6,
         name: "Node.JS",
         level: 40,
+        level_name: "intermediat",
+    },
+    {
+        id: 7,
+        name: "php",
+        level: 60,
         level_name: "intermediat",
     },
 ];

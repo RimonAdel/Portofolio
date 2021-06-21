@@ -13,8 +13,8 @@ const About = (props) => {
           <p>live in Alexandria, Egypt</p>
           <span className="contacts">
             <h3 className="view-cv">Contact Details</h3>
-            <p>+201064957782</p>
             <p>+201115481309</p>
+            <p>+201064957782</p>
             <p>Rimon.adel.01@gmail.com</p>
             <ul className="contact-links">
               <li>

@@ -8,14 +8,12 @@ const Courses = () => {
     return (
       <section id="courses">
         <div className="content-section">
-          <h3>Courses</h3>
-          <div>
+          <h2>Courses</h2>
             <div className="courses-holder">
               {Courses_list.map((course) => {
                 return <Course key={course.id} {...course} />;
               })}
             </div>
-          </div>
         </div>
       </section>
     );

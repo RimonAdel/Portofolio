@@ -5,15 +5,16 @@ import "./ProjectsListStyle.css";
 
 export default function Projects() {
     return (
-      <section className="content-section" id="projects">
+      <section id="projects">
+        <div className="content-section">
         <h2>Projects</h2>
-        <div>
-          <div className="project-holder">
+          <div className=" section-container project-holder">
             {ProjectsData.map((product) => {
               return <Card key={product.id} {...product} />;
             })}
           </div>
         </div>
+      
       </section>
     );
 }
